@@ -1,0 +1,72 @@
+{
+  "cohort_size": 1156,
+  "lapsed_count": 443,
+  "lapsed_rate_pct": 38.32179930795848,
+  "train_rows": 924,
+  "test_rows": 232,
+  "baseline_accuracy": 0.6163793103448276,
+  "baseline_lapsed_f1": 0.0,
+  "logistic": {
+    "best_params": {
+      "model__C": 100
+    },
+    "best_cv_f1": 0.650552962900789,
+    "test": {
+      "confusion_matrix": [
+        [
+          111,
+          32
+        ],
+        [
+          31,
+          58
+        ]
+      ],
+      "precision_lapsed": 0.6444444444444445,
+      "recall_lapsed": 0.651685393258427,
+      "f1_lapsed": 0.6480446927374302
+    }
+  },
+  "random_forest": {
+    "best_params": {
+      "model__max_depth": 8,
+      "model__min_samples_leaf": 10
+    },
+    "best_cv_f1": 0.6865517479789224,
+    "test": {
+      "confusion_matrix": [
+        [
+          111,
+          32
+        ],
+        [
+          32,
+          57
+        ]
+      ],
+      "precision_lapsed": 0.6404494382022472,
+      "recall_lapsed": 0.6404494382022472,
+      "f1_lapsed": 0.6404494382022472
+    }
+  },
+  "balanced_logistic_test": {
+    "confusion_matrix": [
+      [
+        95,
+        48
+      ],
+      [
+        17,
+        72
+      ]
+    ],
+    "precision_lapsed": 0.6,
+    "recall_lapsed": 0.8089887640449438,
+    "f1_lapsed": 0.6889952153110048
+  },
+  "reload_predictions_identical": true,
+  "retention_top10_actually_lapsed": 1,
+  "retention_list_note": "Illustrative only: Premium is a post-hoc whole-window label that includes the September outcome window; it is not a leakage-free evaluation.",
+  "frequency_scaler_training_mean": 8.114718614718615,
+  "full_cohort_frequency_mean": 8.028546712802768
+}

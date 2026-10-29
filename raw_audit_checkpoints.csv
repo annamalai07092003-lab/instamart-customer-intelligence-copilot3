@@ -1,0 +1,2 @@
+raw_orders_rows,exact_duplicate_rows,pending_rows,distinct_order_id,nonnumeric_amounts,negative_delivery_minutes,blank_delivery_minutes,blank_age,age_outside_10_100,raw_city_spellings,raw_gender_spellings_nonblank,blank_gender
+13084,119,656,12309,120,106,2541,61,6,24,10,30

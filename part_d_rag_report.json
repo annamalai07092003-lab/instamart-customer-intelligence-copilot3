@@ -1,0 +1,20 @@
+{
+  "chunk_count": 15,
+  "chunk_counts": {
+    "refund_policy.txt": 4,
+    "delivery_policy.txt": 3,
+    "escalation_policy.txt": 3,
+    "payment_policy.txt": 3,
+    "privacy_policy.txt": 2
+  },
+  "overlap10": {
+    "answerable_doc_retrieval": "12/12",
+    "answerable_expected_fact": "12/12",
+    "unanswerable_fallback": "2/2"
+  },
+  "overlap0": {
+    "answerable_doc_retrieval": "12/12",
+    "answerable_expected_fact": "10/12",
+    "unanswerable_fallback": "2/2"
+  }
+}

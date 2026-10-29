@@ -1,0 +1,26 @@
+{
+  "token_limit_demo": {
+    "status": "FALLBACK_TOKEN_LIMIT",
+    "final_answer": "FALLBACK_TOKEN_LIMIT: Human handoff required. Token budget exceeded before executing the requested tool.",
+    "llm_calls": 3,
+    "tokens_used": 423
+  },
+  "timeout_demo": {
+    "status": "FALLBACK_TIMEOUT",
+    "final_answer": "FALLBACK_TIMEOUT: Human handoff required. Execution time limit reached.",
+    "llm_calls": 0,
+    "tokens_used": 0
+  },
+  "crash_resume": {
+    "status": "REFUND",
+    "final_answer": "REFUND: INR 128.25 issued.",
+    "tools_executed_across_crash_and_resume": [
+      "get_order",
+      "search_policy",
+      "calculate_refund",
+      "issue_refund"
+    ],
+    "llm_calls_after_resume": 3,
+    "tokens_used_after_resume": 1012
+  }
+}

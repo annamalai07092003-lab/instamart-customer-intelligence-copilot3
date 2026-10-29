@@ -1,0 +1,2 @@
+mean,median,skewness,q1,q3,lower_fence,upper_fence,outliers_below,outliers_above
+269.9071827182718,135.0,4.608827438881415,64.8,297.0,-283.49999999999994,645.3,0,897
